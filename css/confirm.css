@@ -1,0 +1,32 @@
+body{
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	background-image: linear-gradient(
+		135deg,
+		rgba(255,248,220,1) 0%,
+		rgba(255,248,220,1) 45%,
+		rgba(0,0,0,0) 100%
+	), url("../img/site/back.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* Для Safari 3-4 */
+	-moz-background-size: cover;    /* Для старых версий Firefox */
+	-o-background-size: cover;      /* Для старых версий Opera */
+	background-size:cover !important;
+	overflow: auto;
+}
+@media (max-width: 1199.98px) {
+	body{
+		background-image: linear-gradient(
+			135deg,
+			rgba(255,248,220,1) 0%,
+			rgba(255,248,220,1) 70%,
+			rgba(0,0,0,0) 100%
+		), url("../img/site/back.jpg");
+	}
+}

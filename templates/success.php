@@ -1,0 +1,1 @@
+<div class="alert alert-success alert-dismissible mt-3" role="alert"><strong>#MSG#</strong></div>

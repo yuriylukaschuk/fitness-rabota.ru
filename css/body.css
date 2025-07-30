@@ -1,0 +1,31 @@
+body{
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+	background-image: linear-gradient(
+		to right,
+		rgba(255,248,220,1) 0%,
+		rgba(255,248,220,1) 45%,
+		rgba(0,0,0,0) 100%
+	), url("../img/site/back.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover !important;
+}
+@media (max-width: 1199.98px) {
+	body{
+		background-image: linear-gradient(
+			to right,
+			rgba(255,248,220,1) 0%,
+			rgba(255,248,220,1) 70%,
+			rgba(0,0,0,0,0.5) 100%
+		), url("../img/site/back.jpg");
+	}
+}

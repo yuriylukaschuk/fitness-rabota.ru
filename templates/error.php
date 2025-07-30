@@ -1,0 +1,1 @@
+<div class="alert alert-danger alert-dismissible mt-3" role="alert"><strong>Внимание!</strong> #MSG#.</div>
